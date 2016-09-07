@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/360.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="css/basic_4.css" type="text/css"/>
+<script type="text/javascript">
+	function hideLine(id){
+		document.getElementById(id).style.borderBottomColor="transparent";
+		}
+	function showLine(id){
+		document.getElementById(id).style.
+borderBottomColor="#F05157";
+		} 
+	function showOrHide(id,dp){
+		document.getElementById(id).style.display=dp;
+		}
+</script>
+<title>360安全卫士</title>
+</head>
+
+<body>
+	<div id="nav">
+    	<div class="auto">
+    		<a href="#" class="lt"></a>
+            <div id="nav_detail">
+            	<div id="nav_select" >
+                    <span onmouseover="hideLine('jiXing')" onmouseout="showLine('jiXing')" ><a href="360fangdiu_2.html">首页</a></span>
+                    <span onmouseover="hideLine('jiXing')" onmouseout="showLine('jiXing')"><a href="360fangdiu_3.html">常见问题</a></span>
+                    <span id="jiXing"><a href="360fangdiu_4.html">支持机型</a></span>
+                    <span onmouseover="hideLine('jiXing')" onmouseout="showLine('jiXing')"><a href="http://weibo.com/u/5085105013">官方微博</a></span>
+                    <span onmouseover="hideLine('jiXing')" onmouseout="showLine('jiXing')"><a href="http://bbs.360safe.com/forum-2374-1.html">官方论坛</a></span>
+                </div>
+                <div id="nav_sort">
+                    <a href="#">
+                        <b id="android" onmouseover="showOrHide('android_img','block')" onmouseout="showOrHide('android_img','none')"></b>
+                        <div id="android_img"></div>
+                    </a>
+                    <a href="#" ><b id="apple"></b></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id="jx" class="auto">
+    	<h1></h1>
+        <p>防丢卫士要求手机硬件支持蓝牙4.0，且系统达到 Android 4.3 以上或 iOS 7.0 以上。目前可满足要求的机型如下：</p>
+        <ul>
+        	<li><a href="#appl" id="mobile-apple"></a></li>
+            <li><a href="#samsung" id="mobile-samsung"></a></li>
+            <li><a href="#xiaomi" id="mobile-xiaomi"></a></li>
+            <li><a href="#lg" id="mobile-lg"></a></li>
+            <li><a href="#htc" id="mobile-htc"></a></li>
+            <li><a href="#meizu" id="mobile-meizu"></a></li>
+            <li><a href="#sony" id="mobile-sony"></a></li>
+            <li><a href="#huawei" id="mobile-huawei"></a></li>
+            <li><a href="#oppo" id="mobile-oppo"></a></li>
+            <li><b id="mobile-daixu"></b></li>
+        </ul>
+        <h3 id="appl">苹果</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>iPhone5s</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>iPhone5c</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>iPhone 5</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>iPhone 4s</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="samsung">三星</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>GALAXY S3</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>GALAXY S4</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>GALAXY S5</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>GALAXY Note 3</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>GALAXY Note 2</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>GALAXY Grand 2</td>
+                    <td>可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="xiaomi">小米</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>红米Note</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>小米2</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>小米3</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>小米4</td>
+                    <td>可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="lg">LG</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>Nexus 5</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>Nexus 4</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="htc">HTC</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>Desire 816</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>ONE</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+      	<h3 id="meizu">魅族</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>MX3</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>MX2</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="sony">SONY</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>Xperia Z2</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>Xperia Z(L36h)</td>
+                    <td>升级系统后可用</td>
+                </tr>
+                <tr>
+                	<td>Xperia Z1</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="huawei">华为</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>G37L</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>荣耀 6</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>荣耀 3X Pro</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>荣耀 1</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>Ascend P7</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>Ascend Mate2</td>
+                    <td>可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="oppo">OPPO</h3>
+        <table>
+        	<tbody>
+            	<tr>
+                	<th>支持机型</th>
+                    <th>备注</th>
+                </tr>
+                <tr>
+                	<td>Find 7</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>R3</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>R1S</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>R6007</td>
+                    <td>可用</td>
+                </tr>
+                <tr>
+                	<td>N1</td>
+                    <td>升级系统后可用</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="gengXin">
+        	<p>此表格将不断更新，及时补充支持机型</p>
+        </div>
+    </div>   
+    <div id="foot">
+    	<div class="auto">
+        	<div>
+            	<dl class="lt">
+                	<dt>关注我们</dt>
+                    <dd><a href="#">官方论坛</a></dd>
+                    <dd><a href="#">新浪微博</a></dd>
+                </dl>
+                <dl class="lt">
+                	<dt>相关网站</dt>
+                    <dd><a href="#">360硬件专区</a></dd>
+                    <dd><a href="#">360安全路由</a></dd>
+                    <dd><a href="#">360儿童卫士</a></dd>
+                </dl>
+                <div id="weibo" class="lt"></div>
+                <div id="weixin" class="lt"></div>
+            </div>
+            <div class="clr"></div>
+            <p>Copyright©2005-2014 360.cn All Rights Resserved.360安全中心</p>
+        </div>
+    </div>
+</body>
+</html>

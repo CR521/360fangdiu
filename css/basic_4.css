@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+/* 通用基础样式 */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+body{
+	font-size:12px;
+	font-family:"宋体",Arial;
+	color:#666;
+	background:#fff;
+	}
+a{
+	text-decoration:none;
+	color:#5c5c5c;
+	}
+a:hover{
+	text-decoration:none;
+	}
+.lt{
+	float:left;
+	}
+.rt{
+	float:right;
+	}
+.clr{
+	clear:both;
+	}
+.auto{
+	margin-left:auto;
+	margin-right:auto;	
+	}
+/* 页面基本布局 */
+
+/**** nav *****/
+#nav{
+	width:100%px;
+	min-width:1020px;
+	height:50px;
+	border-bottom:1px solid #e0e0e0;
+	}
+#nav div.auto{
+	width:1020px;
+	}
+#nav div.auto > a{
+	display:block;
+	float:left;
+	width:155px;
+	height:30px;
+	background:url(../images/fangdiu_2.png) -870px -100px no-repeat;
+	margin-top:12px;
+	}
+#nav #nav_detail #nav_select{
+	right:365px;
+	position:absolute;}
+#nav #nav_detail #nav_select span{
+	display:inline-block;
+	float:left;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#5c5c5c;
+	padding:1em;
+	}
+#nav div #jiXing{
+	border-bottom:3px solid #F05157;
+	}
+#nav div span:hover{
+	border-bottom:3px solid #F05157;
+	}
+#nav #nav_sort{
+	width:240px;
+	right:125px;
+	position:absolute;
+	}	
+#nav #nav_sort b {
+	display:inline-block;
+	width:88px;
+	height:26px;
+	margin:1em -1em 1em 1.5em;
+	background: url(../images/fangdiu_1.png) no-repeat;
+	}	
+#nav div #android{
+	background-position:-429px -671px;
+	}	
+#nav div #android:hover{
+	background-position:-1654px -509px;
+	}	
+#nav #nav_detail #android_img{
+	width:180px;
+	height:210px;
+	top:50px;
+	right:42px;
+	background:url(../images/fangdiu_1.png) -1654px -299px no-repeat;
+	position:absolute;
+	z-index:3;
+	display:none;
+	}
+#nav div #apple{
+	background-position:-1654px -536px;
+	}
+/******jx********/
+#jx{
+	width:1020px;
+	padding-top:38px;
+	}
+#jx h1{
+	display:block;
+	width:170px;
+	height:54px;
+	background:url(../images/fangdiu2_1.png) no-repeat -177px -385px;
+	margin-bottom:30px;
+	}
+#jx > p{
+	border-top:1px solid #e0e0e0;
+	color:#626262;
+	font-size:16px;
+	font-family:"微软雅黑";
+	padding:35px 0px 22px 0px;
+	}
+#jx ul {
+	height:180px;
+	padding:10px 0px;
+	}
+#jx ul li{
+	float:left;
+	width:176px;
+	height:81px;
+	margin:10px 24px 10px 0px;
+	border:1px solid #e2e2e2;
+	}
+#jx ul li a{
+	display:block;
+	width:173px;
+	height:77px;
+	background:url(../images/fangdiu2_1.png) no-repeat;	
+	}
+#jx ul li a:hover{
+	border:2px solid #CF4244;
+	}
+#jx ul li #mobile-apple{
+	background-position:-0px 0px;
+	}
+#jx ul li #mobile-apple:hover{
+	background-position:-2px -2px;
+	}	
+#jx ul li #mobile-samsung{
+	background-position:-173px -77px;
+	}
+#jx ul li #mobile-samsung:hover{
+	background-position:-175px -79px;
+	}
+#jx ul li #mobile-xiaomi{
+	background-position:-173px -308px;
+	}
+#jx ul li #mobile-xiaomi:hover{
+	background-position:-175px -310px;
+	}
+#jx ul li #mobile-lg{
+	background-position:0px -231px;
+	}
+#jx ul li #mobile-lg:hover{
+	background-position:-2px -233px;
+	}
+#jx ul li #mobile-htc{
+	background-position:0px -77px;
+	}
+#jx ul li #mobile-htc:hover{
+	background-position:-2px -79px;
+	}
+#jx ul li #mobile-meizu{
+	background-position:0px -308px;
+	}
+#jx ul li #mobile-meizu:hover{
+	background-position:-2px -310px;
+	}
+#jx ul li #mobile-sony{
+	background-position:-173px -154px;
+	}
+#jx ul li #mobile-sony:hover{
+	background-position:-175px -156px;
+	}
+#jx ul li #mobile-huawei{
+	background-position:0px -154px;
+	}
+#jx ul li #mobile-huawei:hover{
+	background-position:-2px -156px;
+	}
+#jx ul li #mobile-oppo{
+	background-position:-173px 0px;
+	}
+#jx ul li #mobile-oppo:hover{
+	background-position:-175px -2px;
+	}
+#jx ul li:last-child{
+	background-color:#e5e5e5;
+	}
+#jx ul li #mobile-daixu{
+	display:block;
+	width:173px;
+	height:77px;
+	background:url(../images/fangdiu2_1.png) no-repeat;
+	background-position:-173px -231px;
+	margin:2px 1px;
+	}
+#jx h3{
+	font-size:29px;
+	font-weight:900px;
+	margin:45px 0px 25px 0px;
+	font-family:"微软雅黑";
+	}
+#jx table{
+	width:100%;
+	border-collapse:collapse;
+	border:1px solid #e2e2e2;
+	}
+#jx table tbody tr{
+	height:50px;
+	text-align:left;
+	}
+#jx table tbody tr th{
+	background-color:#a8a8a8;
+	width:50%;
+	font-size:22px;
+	font-weight:900;
+	font-family:"微软雅黑";
+	color:#fff;
+	padding-left:22px;
+	}
+#jx table tbody tr td{
+	border:1px;
+	border-color:#e2e2e2;
+	font-size:16px;
+	font-weight:400;
+	font-family:"微软雅黑";
+	padding-left:22px;
+	border-top:1px solid #e2e2e2;
+	}
+#jx #gengXin p{
+	color:#a0a0a0;
+	font-family:"微软雅黑";
+	font-size:16px;
+	margin:35px 0px 73px 0px;
+	text-align:center;
+	}
+/******foot******/	
+#foot{
+	height:320px;
+	background-color:#363636;
+	color:#969696;
+	}
+#foot > div{
+	width:775px;
+	height:175px;
+	padding-top:6.5em;
+	}
+#foot div dl{
+	padding-right:77px;
+	font-family:"微软雅黑";
+	}
+#foot div dl dt{
+	margin-bottom:1em;
+	font-size:1.8em;
+	}
+#foot div dl dd{
+	padding:0.25em 0px;
+	font-size:1.2em;
+	font-weight:400;
+	}	
+#foot #weibo{
+	width:212px;
+	height:128px;
+	margin-right:20px;
+	background:url(../images/fangdiu_1.png) no-repeat 0px -578px;
+	}	
+#foot #weixin{
+	width:215px;
+	height:128px;
+	background:url(../images/fangdiu_1.png) no-repeat -214px -578px;
+	}	
+#foot div p{
+	text-align:center;
+	margin-top:4em;
+	}
